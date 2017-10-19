@@ -1,0 +1,227 @@
+/*
+* @Author: DELL
+* @Date:   2017-10-15 21:44:13
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-10-19 16:30:27
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 436583 */
+  src: url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.eot');
+  src: url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #8ee0fe;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.26rem 0.3rem;
+}
+.top{
+	width: 0.8rem;
+	height: 0.24rem;
+	/* background-color: green; */
+	font-size: 0.24rem;
+	color: white;
+}
+.top a{
+	color: white;
+}
+.top1{
+	width: 1.6rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+	color: white;
+}
+.top2{
+	width: 0.48rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.24rem;
+}
+.top2 a{
+	color: white;
+}
+.img{
+	width: 100%;
+	height: 7.2rem;
+	/* background-color: blue; */
+	position: relative;
+}
+.img-gundian{
+	width: 1.6rem;
+	height: 0.2rem;
+	/* background-color: red; */
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 6.6rem;
+}
+.img-gundian li{
+	width: 0.16rem;
+	height: 0.16rem;
+	background-color: white;
+	border-radius: 50%;
+	border: 0.02rem solid #ccc;
+	float: left;
+	margin-right: 0.2rem;
+}
+.img-gundian li:last-child{
+	margin: 0;
+}
+.jieshao{
+	width: 5.8rem;
+	height: 2.7rem;
+	/* background-color: blue; */
+	margin: 0.36rem auto;
+}
+.jieshao-top{
+	width: 100%;
+	height: 1.18rem;
+	/* background-color: green; */
+	font-size: 0.28rem;
+}
+.jieshao-bottom{
+	width: 100%;
+	height: 0.55rem;
+	/* background-color: orange; */
+	font-size: 0.24rem;
+	color: #f54536;
+	line-height: 0.55rem;
+}
+.jiaqian{
+	width: 100%;
+	height: 0.34rem;
+	/* background-color: yellow; */
+	font-size: 0.34rem;
+	color: #f54536;
+}
+.renshu{
+	width: 100%;
+	height: 0.2rem;
+	/* background-color: yellow; */
+	font-size: 0.2rem;
+	color: #464646;
+	margin-top: 0.2rem;
+}
+.pingjia{
+	width: 100%;
+	height: 5.39rem;
+	/* background-color: blue; */
+}
+.pingjia-top{
+	width: 5.8rem;
+	height: 1rem;
+	/* background-color: green; */
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #ccc;
+	line-height: 1rem;
+	font-size: 0.26rem;
+}
+.pingjia-bottom{
+	width: 5.8rem;
+	height: 3rem;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	border-bottom: 0.01rem solid #ccc;
+}
+.pingjia-bottom-top{
+	width: 100%;
+	height: 0.62rem;
+	/* background-color: blue; */
+	margin-top: 0.2rem;
+}
+.pingjia-bottom-top-tou{
+	width: 0.62rem;
+	height: 0.62rem;
+	/* background-color: red; */
+	border-radius: 50%;
+	float: left;
+	overflow: hidden;
+
+}
+.pingjia-bottom-top-tou img{
+	float: left;
+}
+.pingjia-bottom-top-center{
+	width: 1.72rem;
+	height: 0.62rem;
+	/* background-color: red; */
+	float: left;
+}
+.pingjia-ming{
+	width: 100%;
+	height: 0.24rem;
+	/* background-color: orange; */
+	font-size: 0.24rem;
+	text-align: center;
+	color: #cfcfcf;
+}
+.pingjia-shijian{
+	width: 100%;
+	height: 0.16rem;
+	/* background-color: orange; */
+	margin-top: 0.1rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #cfcfcf;
+}
+.pingjia-bottom-word{
+	width: 100%;
+	height: 0.24rem;
+	/* background-color: blue; */
+	margin-top: 0.2rem;
+	font-size: 0.24rem;
+}
+.pingjia-bottom-word-img{
+	width: 1.52rem;
+	height: 1.48rem;
+	/* background-color: red; */
+	margin-top: 0.2rem;
+}
+.pingjia-bottom1{
+	width: 5.8rem;
+	height: 4rem;
+	/* background-color: yellow; */
+	margin: 0 auto;
+	border-bottom: 0.01rem solid #ccc;
+}
+.di{
+	width: 100%;
+	height: 1rem;
+	/* background-color: blue; */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.di1{
+	width:50%;
+	height: 100%;
+	background-color: #faa25e;
+	border-bottom: 0.01rem solid #ccc;
+	float: left;
+	font-size: 0.3rem;
+	color: white;
+	line-height: 1rem;
+	text-align: center;
+}
+.di2{
+	width:50%;
+	height: 100%;
+	background-color: #f2473d;
+	float: left;
+	font-size: 0.3rem;
+	color: white;
+	line-height: 1rem;
+	text-align: center;
+}

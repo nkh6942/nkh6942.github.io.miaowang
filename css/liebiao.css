@@ -1,0 +1,172 @@
+/*
+* @Author: DELL
+* @Date:   2017-10-15 19:38:42
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-10-19 17:26:00
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 436583 */
+  src: url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.eot');
+  src: url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_436583_7sesbh1zrw45cdi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #8ee0fe;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.26rem 0.3rem;
+}
+.top{
+	width: 0.8rem;
+	height: 0.24rem;
+	/* background-color: green; */
+	font-size: 0.24rem;
+	color: white;
+}
+.top a{
+	color: white;
+}
+.top1{
+	width: 1.6rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+	color: white;
+}
+.top2{
+	width: 0.36rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+}
+.top2 a{
+	color: white;
+}
+.sousuo{
+	width: 100%;
+	height: 0.88rem;
+	/* background-color: blue; */
+	float: left;
+	position: relative;
+}
+.sousuo a{
+	color: #b0b0b0;
+}
+.sousuo input{
+	float: left;
+	outline:none;
+}
+.sousuo1{
+	width: 5rem;
+	height: 0.66rem;
+	margin-top: 0.12rem;
+	
+}
+.sousuo-icon {
+	width: 0.66rem;
+	height: 0.66rem;
+	float: left;
+	font-size: 0.55rem;
+	line-height: 0.66rem;
+	text-align: center;
+	padding-top: 0.1rem;
+	margin-left: 0.3rem;
+}
+.icon{
+	
+	/* background-color: green; */
+	/* position: absolute;
+	top: 0.12rem;
+	left: 0.24rem; */
+	
+	
+}
+.xuanze{
+	width: 5.8rem;
+	height: 0.86rem;
+	/* background-color: green; */
+	float: left;
+	margin-left:0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 0.02rem solid #f9f9f9;
+}
+.xuanze-word{
+	width: 0.48rem;
+	height: 0.22rem;
+	/* background-color: red; */
+	display: block;
+	font-size: 0.22rem;
+	color: #666;
+}
+.shangpin{
+	width: 100%;
+	height: 2.69rem;
+	/* background-color: blue; */
+	float: left;
+}
+.shangpin a{
+	color: 
+}
+.shangpin-img{
+	width: 2.50rem;
+	height: 2.6rem;
+	/* background-color: red; */
+	float: left;
+}
+.shangpin-right{
+	width: 3.6rem;
+	height: 1.8rem;
+	/* background-color: green; */
+	float: left;
+	margin-top: 0.48rem;
+}
+.shangpin-right-top{
+	width: 100%;
+	height: 0.66rem;
+	/* background-color: red; */
+	font-size: 0.28rem;
+}
+.shangpin-right-center{
+	width: 0.66rem;
+	height: 0.22rem;
+	/* background-color: blue; */
+	margin-top: 0.3rem;
+	font-size: 0.22rem;
+	color: #f54536;
+}
+.shangpin-right-right{
+	width: 1rem;
+	height: 0.22rem;
+	/* background-color: blue; */
+	margin-top: 0.3rem;
+	font-size: 0.22rem;
+	color: #b2b2b2;
+}
+.di{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #f3f8ff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 0.28rem;
+	line-height: 0.88rem;
+	color: #494949;
+	margin-left: 0.3rem;
+}
+.shangpin1{
+	width: 100%;
+	height: 3.57rem;
+	/* background-color: blue; */
+	float: left;
+}

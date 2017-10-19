@@ -1,0 +1,278 @@
+/*
+* @Author: DELL
+* @Date:   2017-10-13 10:55:17
+* @Last Modified by:   DELL
+* @Last Modified time: 2017-10-15 16:30:38
+*/
+@font-face {
+  font-family: 'iconfont';  /* project id 436583 */
+  src: url('http://at.alicdn.com/t/font_436583_rumx88ebgb1vpldi.eot');
+  src: url('http://at.alicdn.com/t/font_436583_rumx88ebgb1vpldi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_436583_rumx88ebgb1vpldi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_436583_rumx88ebgb1vpldi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_436583_rumx88ebgb1vpldi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #8ee0fe;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.26rem 0.3rem;
+}
+.top{
+	width: 0.4rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+	color: white;
+}
+.top a{
+	color: white;
+}
+.top1{
+	width: 0.8rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+	color: white;
+}
+.top2{
+	width: 0.36rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	font-size: 0.34rem;
+}
+.top2 a{
+	color: white;
+}
+.geren{
+	width: 100%;
+	height: 4.70rem;
+	/* background-color: green; */
+	/* margin-top: 0.34rem; */
+}
+.geren-top{
+	width: 100%;
+	height: 1.59em;
+	/* background-color: pink; */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.geren-top-touxiang{
+	width: 1.28rem;
+	height: 1.28rem;
+	/* background-color: blue; */
+	border-radius: 50%;
+	overflow: hidden;
+}
+.geren-top-ming{
+	width: 3rem;
+	height: 1.28rem;
+	/* background-color: blue; */
+}
+.geren-top-jiantou{
+	width: 1.28rem;
+	height: 0.16rem;
+	/* background-color: blue; */
+	display: block;
+	color: #ccc;
+	font-size: 0.16rem;
+}
+/* .geren-top-jiantou */
+.geren-top-ming-top{
+	width: 100%;
+	height: 0.28rem;
+	/* background-color: gold; */
+	margin-top: 0.15rem;
+	color: black;
+	font-size: 0.28rem;
+}
+.geren-top-ming-top i{
+	color: #e0180c;
+}
+.geren-top-ming-bottom{
+	width: 100%;
+	height: 0.18rem;
+	/* background-color: gold; */
+	margin-top: 0.29rem;
+	color: #ccc;
+	font-size: 0.18rem;
+}
+.geren-qiandao{
+	width: 100%;
+	height: 0.97rem;
+	/* background-color: blue; */
+	border-bottom: 0.01rem solid #e7e7e7;
+	margin-top: 0.6rem;
+}
+.geren-qiandao-left{
+	width: 50%;
+	height: 0.52rem;
+	/* background-color: orange; */
+	border-right: 0.01rem solid #e7e7e7;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.geren-qiandao-right{
+	width: 50%;
+	height: 0.52rem;
+	/* background-color: orange; */
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.geren-qiandao-left-word{
+	width: 0.88rem;
+	height: 0.22rem;
+	/* background-color:blue;  */
+	display: block;
+	font-size: 0.22rem;
+	color: #b2b2b2;
+}
+.geren-caican{
+	width: 100%;
+	height: 0.9rem;
+	/* background-color: blue; */
+	display: flex;
+	margin-top: 0.4rem;
+}
+.kongbai{
+	width: 100%;
+	height: 0.23rem;
+	background-color: #e7e7e7;
+}
+/* 日常管理开始 */
+.richang{
+	width: 100%;
+	height: 2.71em;
+	/* background-color: blue; */
+}
+.richang-top{
+	width: 100%;
+	height: 0.89rem;
+	/* background-color: gold; */
+	border-bottom: 0.01rem solid #e7e7e7;
+	overflow: hidden;
+}
+.richang-top-word{
+	width: 1rem;
+	height: 0.22rem;
+	/* background-color: green; */
+	font-size: 0.22rem;
+	margin-top: 0.33rem;
+	margin-left: 0.3rem;
+	color: #464646;
+}
+.richang-bottom{
+	width: 100%;
+	height: 1.59rem;
+	/* background-color: green; */
+	display: flex;
+}
+.richang-bottom-nei{
+	width: calc(100% / 4);
+	height: 1.59rem;
+	/* background-color: orange; */
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.richang-bottom-nei-word{
+	width: 1.05rem;
+	height: 0.3rem;
+	/* background-color: green; */
+	font-size: 0.3rem;
+	color: #84b6ff;
+}
+/* 日常管理结束 */
+/* 商城购物开始 */
+.qita{
+	width: 100%;
+	height: 5.26em;
+	/* background-color: blue; */
+}
+/* 商城购物结束 */
+.di{
+	width: 100%;
+	height: 0.96rem;
+	background-color: #8ee0fe;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+}
+.di-nei{
+	width: calc(100% / 4);
+	height: 0.96rem;
+	/* background-color: blue; */
+	overflow: hidden;
+/* 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around; */
+}
+.di-nei-icon{
+	width: 0.4rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	margin-top: 0.2rem;
+	margin-left: 0.7rem;
+	/* font-size: 0.34rem; */
+	float: left;
+}
+.di-nei-icon i{
+	float: left;
+	font-size: 0.34rem;
+	color: #818181;
+}
+/* .di-nei-icon i{
+	font-size: 0.34rem;
+} */
+.di-nei-word{
+	width: 0.4rem;
+	/* height: 0.16rem; */
+	/* background-color: orange; */
+	margin-left: 0.7rem;
+	margin-top: 0.06rem;
+	font-size: 0.16rem;
+	color: #818181;
+	float: left;
+}
+.di-nei-icon1{
+	width: 0.4rem;
+	height: 0.34rem;
+	/* background-color: green; */
+	margin-top: 0.2rem;
+	margin-left: 0.7rem;
+	/* font-size: 0.34rem; */
+	float: left;
+}
+.di-nei-icon1 i{
+	float: left;
+	font-size: 0.34rem;
+	color: #f2473d;
+}
+/* .di-nei-icon i{
+	font-size: 0.34rem;
+} */
+.di-nei-word1{
+	width: 0.4rem;
+	/* height: 0.16rem; */
+	/* background-color: orange; */
+	margin-left: 0.7rem;
+	margin-top: 0.06rem;
+	font-size: 0.16rem;
+	color: #f2473d;
+	float: left;
+}
