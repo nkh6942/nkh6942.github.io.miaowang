@@ -2,7 +2,7 @@
 * @Author: DELL
 * @Date:   2017-10-15 19:38:42
 * @Last Modified by:   DELL
-* @Last Modified time: 2017-10-19 17:26:00
+* @Last Modified time: 2017-10-20 15:21:17
 */
 @font-face {
   font-family: 'iconfont';  /* project id 436583 */
@@ -23,6 +23,10 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding: 0.26rem 0.3rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
 }
 .top{
 	width: 0.8rem;
@@ -56,6 +60,7 @@ header{
 	/* background-color: blue; */
 	float: left;
 	position: relative;
+	margin-top: 0.88rem;
 }
 .sousuo a{
 	color: #b0b0b0;
